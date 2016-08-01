@@ -5,15 +5,16 @@ body {
 	color:#2a3845;
 	background: #DFE2DB;
 	padding: 0;
-	margin-right: 40px;
-	margin-left: 40px;
-	margin-bottom: 40px;
-	margin-top: 40px;
+	margin-right: 100px;
+	margin-left: 20px;
+	margin-bottom: 460px;
+	margin-top: 20px;
 }
 
-p{
+p {
 	padding: 0;
 	color: #191919;
+	font-size: 1.2em;
 }
 
 em {
@@ -32,10 +33,13 @@ em {
 	background:#06a;
 	text-align:right;
 	color:#f6dde3;
+	font-size: 1.5em;
+	padding-bottom:50px;
+	float: center;
 }
 
 #header {
-	float: center;
+	float: right;
 	padding: 0;
 	
 	
@@ -102,19 +106,20 @@ a:hover {
 }
 
 h1 {
-	color:#7a2e40;
+	color:#F5F5F5;
 	margin:0 0 10px;
 	padding-bottom:10px;
 	font:normal 17px Georgia, serif;
 	border-bottom:1px solid #efece7;
+	background-color: #F4A460;
 }
 
 h2 {
 	color:#F0FFFF;
-	margin:20px 0 10px;
-	padding-bottom:10px;
+	margin:5px 0 10px;
+	padding-bottom:50px;
 	font:normal 17px Georgia, serif;
-	border-bottom:40px solid #efece7;
+	border-bottom:10px solid #efece7;
 	background-color: #000000;
 	float: center;
 }
@@ -122,9 +127,10 @@ h2 {
 h3 {
 	color:#7a2e40;
 	margin:10px 0;
-	padding-bottom:10px;
+	padding-bottom:20px;
 	font:bold 14px Arial, Helvetica, sans-serif;
-	border-bottom:1px solid #efece7;
+	background-color: #FFFFFF;
+	border-bottom:10px solid #000000;
 }
 
 ul {
@@ -134,13 +140,19 @@ ul {
 }
 
 .box {
-	background:#f7f7f7;
+	background:#ADFF2F;
 	border:1px solid #f0e9eb;
 	padding:15px;
+	font-size: 1.2em;
 	
 }
 .quotes{
 	background: #7FFF00;
+}
+
+.gallery {
+
+	float: center;
 }
 
 div.vertical-line{
@@ -172,6 +184,20 @@ div.vertical-line{
 	color:#4B0082;
 	text-align:center;
 	background-color: #90EE90;
+}
+.about {
+
+	float: right;
+}
+
+.img {
+	float: left;
+
+}
+
+img{
+	float: left;
+	margin-right: 15px;
 }
 
 }

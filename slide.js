@@ -1,3 +1,6 @@
+
+//Javascript to make the images slide after 3 secs
+
 var slider = {
 	freq: 18,  // time between each frame in milliseconds
 	fadeStep: 2,  // amount of opacity to increase at each frame (until it reaches 100)
@@ -5,22 +8,31 @@ var slider = {
 	
 	// here go slider files except the first one, which is defined in html
 	imgFiles: [
-		'Images/pic2.jpg' ,
-		'Images/pic3.jpg',
-		'Images/pic4.jpg',
-		'Images/pic5.jpg',
-		'Images/pic6.jpg',
-		'Images/pic7.jpg',
-		'Images/pic8.jpg',
-		'Images/pic9.jpg',
-		'Images/pic10.jpg',
-		'Images/pic11.jpg',
-		'Images/pic12.jpg',
-		'Images/pic13.jpg',
-		'Images/pic14.jpg',
-		'Images/pic15.jpg'
-		
+		"Images/pic2.jpg",
+		"Images/pic3.jpg",
+		"Images/pic4.jpg",
+		"Images/pic5.jpg",
+		"Images/pic6.jpg",
+		"Images/pic7.jpg",
+		"Images/pic8.jpg",
+		"Images/pic9.jpg",
+		"Images/pic10.jpg",
+		"Images/pic11.jpg",
+		"Images/pic12.jpg",
+		"Images/pic13.jpg",
+		"Images/pic14.jpg",
+		"Images/pic15.jpg",
+		"Images/pic16.jpg",
+		"Images/pic17.jpg",
+		"Images/pic18.jpg",
+		"Images/pic19.jpg",
+		"Images/pic20.jpg",
+		"Images/pic21.jpg",
+		"Images/pic24.jpg",
+		"Images/pic25.jpg",
+		"Images/pic26.jpg"
 	],
+
 	current: 0,  // index number of currently visible slider
 	imgs: [],  // here we will load image elements of all sliders
 	
