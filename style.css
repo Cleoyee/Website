@@ -5,6 +5,10 @@ body {
 	color:#2a3845;
 	background: #DFE2DB;
 	padding: 0;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 p{
@@ -32,6 +36,7 @@ em {
 
 #header {
 	float: center;
+	padding: 0;
 	
 	
 }
@@ -167,49 +172,6 @@ div.vertical-line{
 	color:#4B0082;
 	text-align:center;
 	background-color: #90EE90;
-}
-
-	.thumbnails img {
-		height: 300px;
-		border: 4px solid #555;
-		padding: 1px;
-		margin: 0 20px 20px 0;
-		margin-left: 50px;
-	}
-
-	.thumbnails img:hover {
-		border: 4px solid #00ccff;
-		cursor:pointer;
-	}
-
-	.preview img {
-		border: 4px solid #444;
-		padding: 1px;
-		width: 800px;
-	}
-
-	#cf {
-	  position:relative;
-	  height:181px;
-	  width:150px;
-	  margin:0 auto;
-	}
-
-	#cf img {
-	  position:absolute;
-	  left:0;
-	  -webkit-transition: opacity 1s ease-in-out;
-	  -moz-transition: opacity 1s ease-in-out;
-	  -o-transition: opacity 1s ease-in-out;
-	  transition: opacity 1s ease-in-out;
-	}
-
-	#cf img.top:hover {
-  	opacity:0;
-   }
-
-	   #cf_onclick {
-	    cursor:pointer;
 }
 
 }
