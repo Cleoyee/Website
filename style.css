@@ -3,7 +3,7 @@
 body {
     font:normal 12px/1.6em Arial, Helvetica, sans-serif;
 	color:#2a3845;
-	background: #DFE2DB;
+	background-color: #72DCF5;
 	padding: 0;
 	margin-right: 100px;
 	margin-left: 20px;
@@ -13,7 +13,7 @@ body {
 
 p {
 	padding: 0;
-	color: #191919;
+	color: #1C0B07;
 	font-size: 1.2em;
 }
 
@@ -34,13 +34,15 @@ em {
 	text-align:right;
 	color:#f6dde3;
 	font-size: 1.5em;
-	padding-bottom:50px;
-	float: center;
+	padding-bottom: 25px;
+	float: left;
+	position: fixed;
 }
 
 #header {
-	float: right;
+	float: left;
 	padding: 0;
+	position: fixed;
 	
 	
 }
@@ -57,21 +59,23 @@ em {
 }
 
 #main-image {
-	
+	width: 800;
+	height: 350;
+	margin-left: 50px;
 	
 }
 
 #left-column {
-	width: 500px;
+	width: 2000;
 	float: left;
-	margin-right: 80px;
+	margin-right: 60px;
 	margin-left: 50px;
 }
 
 #right-column {
-	width: 170px;
-	float: right;
-	margin-left: 50px;
+	width: 10px;
+	float: left;
+	margin-left: 10px;
 	
 	
 }
@@ -111,13 +115,12 @@ h1 {
 	padding-bottom:10px;
 	font:normal 17px Georgia, serif;
 	border-bottom:1px solid #efece7;
-	background-color: #F4A460;
 }
 
 h2 {
 	color:#F0FFFF;
 	margin:5px 0 10px;
-	padding-bottom:50px;
+	padding-bottom:5px;
 	font:normal 17px Georgia, serif;
 	border-bottom:10px solid #efece7;
 	background-color: #000000;
@@ -136,7 +139,7 @@ h3 {
 ul {
 	padding:0;
 	margin:0 0 0 17px;
-    list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+   list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
 }
 
 .box {
@@ -153,6 +156,8 @@ ul {
 .gallery {
 
 	float: center;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 div.vertical-line{
@@ -195,9 +200,35 @@ div.vertical-line{
 
 }
 
+.section {
+	color: #0F0604;
+	background-color: #635A58;
+	color:#F5F5F5;
+}
+
+
+.company {
+	color: #1A1AEA;
+}
+
+.title {
+	color: #460A6B;
+}
+
+.activity {
+	color: #080F47;
+}
+
 img{
 	float: left;
 	margin-right: 15px;
+
+}
+
+li {
+
+	color: #101111;
+
 }
 
 }

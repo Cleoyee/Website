@@ -18,19 +18,19 @@ var slider = {
 		"Images/pic9.jpg",
 		"Images/pic10.jpg",
 		"Images/pic11.jpg",
-		"Images/pic12.jpg",
+		//"Images/pic12.jpg",
 		"Images/pic13.jpg",
 		"Images/pic14.jpg",
 		"Images/pic15.jpg",
-		"Images/pic16.jpg",
+		//"Images/pic16.jpg",
 		"Images/pic17.jpg",
-		"Images/pic18.jpg",
-		"Images/pic19.jpg",
-		"Images/pic20.jpg",
-		"Images/pic21.jpg",
-		"Images/pic24.jpg",
-		"Images/pic25.jpg",
-		"Images/pic26.jpg"
+		//"Images/pic18.jpg",
+		//"Images/pic19.jpg",
+		//"Images/pic20.jpg",
+		//"Images/pic21.jpg",
+		///"Images/pic24.jpg",
+		//"Images/pic25.jpg",
+		//"Images/pic26.jpg"
 	],
 
 	current: 0,  // index number of currently visible slider
