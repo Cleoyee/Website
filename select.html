@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Rad Contacts</title>
+    </head>
+    <body>
+<?php
+    $sql_connection = mysql_connect("localhost", "root", "root");
+ 
+    mysql_select_db("MyRadContactForm", $sql_connection);
+ 
+    $result = mysql_query("SELECT * FROM MyRadContacts");
+ 
+    echo "<table>";
+    echo "<tr><td>Name</td><td>Email</td><td>Least Favorite Color</td><td>Created On</td></tr>";
+ 
+    while ($row = mysql_fetch_array($result)) {
+        echo "<tr>";
+        echo "<td>" . $row["ContactName"] . "</td>";
+        echo "<td>" . $row["ContactEmail"] . "</td>";
+        echo "<td>" . $row["ContactLeastFavoriteColor"] . ";</td>";
+        echo "<td>" . $row["ContactDateCreated"] . "</td>";
+        echo "</tr>";
+    }
+ 
+    echo "</table";
+ 
+    mysql_close($sql_connection);
+?>
+    </body>
+</html>
