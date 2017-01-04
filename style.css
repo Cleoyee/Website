@@ -346,5 +346,10 @@ figcaption {
   	font-size: 11px;
   	float: center
   }
+
+  #about {
+  	background-color: #FFF5EE;
+
+  }
 }
 

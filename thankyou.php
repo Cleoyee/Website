@@ -2,13 +2,6 @@
  
 require 'connection.php';
 
-/*
-Following errors on the lines 15, 16 and 17
-Notice: Undefined index: your_name in C:\xampp\htdocs\Website\thankyou.php on line 15
-
-Notice: Undefined index: your_email in C:\xampp\htdocs\Website\thankyou.php on line 16
-
-Notice: Undefined index: subject in C:\xampp\htdocs\Website\thankyou.php on line 17
 
 */
 $conn = Connect();
