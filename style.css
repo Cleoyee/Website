@@ -23,7 +23,7 @@ em {
 
 #wrapper {
 
-	 width: 1000px;
+	 width: auto;
 
 	
 }
@@ -59,23 +59,23 @@ em {
 }
 
 #main-image {
-	width: 800;
-	height: 350;
-	margin-left: 50px;
+	width: auto;
+	height: auto;
+	margin-left:auto;
 	
 }
 
 #left-column {
-	width: 2000;
+	width: auto;
 	float: left;
-	margin-right: 60px;
-	margin-left: 50px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #right-column {
-	width: 10px;
+	width: auto;
 	float: left;
-	margin-left: 10px;
+	margin-left: auto;
 	
 	
 }
@@ -144,11 +144,30 @@ ul {
 }
 
 .box {
-	background:#ADFF2F;
+	background:#27252E;
 	padding:15px;
 	font-size: 1.2em;
 	
 }
+.box > p {
+	color: white;
+}
+.box > ul > li {
+	color : white;
+}
+.box > ul > li > a {
+	color: white;
+}
+.contacts {
+	background-color: #090A09;
+}
+.contacts > p {
+	color: white;
+}
+.contacts > form {
+	color: yellow;
+}
+
 .quotes{
 	background: #7FFF00;
 }
@@ -221,22 +240,52 @@ div.vertical-line{
 	color: #0F0604;
 	background-color: #635A58;
 	color:#F5F5F5;
-	font:normal 15px Georgia, serif;
+	font:normal 18px Georgia, serif;
+}
+.section > ul > li {
+	font-size: 0em;
 }
 
 
 .company {
-	color: #1A1AEA;
+	color: black;
 }
 
 .title {
-	color: #460A6B;
+	color: black;
+}
+.title > ul  > li {
+	font-size: 350%;
 }
 
 .activity {
 	color: #080F47;
 }
+.bio {
+	background-color: #0A0E83;
+}
+.bio > p {
+	color: white;
+}
+.bio > h1 {
+	color: #A5E618;
+}
+.bio > h3 {
+	color: #A5E618;
+}
 
+.resume {
+	background-color: #D7AD4D;
+}
+.courses {
+	font-size: 110%;
+}
+.skills {
+	font-size: 110%;
+}
+.roles {
+	font-size: 110%;
+}
 img{
 	float: left;
 	margin-right: 15px;
@@ -281,7 +330,9 @@ figcaption {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
+.prev {
+	left: 0;
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
@@ -348,7 +399,7 @@ figcaption {
   	float: center
   }
 
-  #about {
+  #About {
   	background-color: #FFF5EE;
 
   }

@@ -47,8 +47,7 @@ $(document).ready(function(){
 			 | <a href="#Twitter">Twitter</a> 
 			</div>
 			<div id="bg"></div>
-	</div>
-
+		</div>
 <br><br><br>
 
 <h1 style = "color: black"></strong>CLEOPHAS KALEKEM</strong></h1>
@@ -145,10 +144,9 @@ $(document).ready(function(){
 		<div class="text">Image Fifteen</div>
 	</div>
 
-	<a class="prev" onclick="plusSlides(-1)"><==</a>
-	<a class="next" onclick="plusSlides(1)">==></a>
+	<a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+	<a class="next" onclick="plusSlides(1)">&#8594;</a>
 
-</div>
 <br>
 
 <div style="text-align:center">
@@ -167,6 +165,7 @@ $(document).ready(function(){
   <span class="dot" onclick="currentSlide(13)"></span> 
   <span class="dot" onclick="currentSlide(14)"></span> 
   <span class="dot" onclick="currentSlide(15)"></span>
+</div>
 </div>
 
 <script>
@@ -234,12 +233,16 @@ function showSlides(n) {
 
 	<div id="About"></div>
 
-		<br><br><br>
-
-		<h1 style= "color: black" ><strong>BIOGRAPHY</strong></h1>
+	<br><br><br>
+		
+	<div class ="bio">
+		
+		<h1 ><strong>BIOGRAPHY</strong></h1>
 		<br>
+		
 		<div id="main-image"><a href = "Images/official.jpg"><img src="Images/official.jpg" width= "500" height = "500" /></a></div>
-		<h3 style = "color: black"><strong>EARLY LIFE</strong></h3>
+		
+		<h3><strong>EARLY LIFE</strong></h3>
 
 		<p>I was born and raised in Parua location, West Pokot County, Kapenguria, Kenya. I went to Parua Primary School for my primary and Chewoyet High School for the secondary education. Both schools are located in West Pokot County. The county is in the North-Western part of Kenya. The community's main economic activity is livestock keeping and farming.</p>
 		
@@ -253,10 +256,13 @@ function showSlides(n) {
 
 		<p>I'm also working on projects back home to inspire the hundreds of young adults to pursue their dreams. Having received my primary and high school education in my home county of West Pokot, I deeply understand the challenges that the community face. It's my plan to establish programs in the community that will give the students opportunity to access facilities they completely lack at the moment. These include electricity supply, internet connectivity, and better learning materials. It's my great desire to pass the message to those still in their primary and high school education in the village that THEIR DREAMS ARE VALID and that they should never give up despite the challenges they face!. If I made it with the very limited resources, so too they can!</p>
 		<br>
+	</div>
 
 <br><br>
 
+
 <div id="Resume"></div>
+<div class = "resume">
 
 <br><br>
 
@@ -272,6 +278,7 @@ function showSlides(n) {
 <p><strong>Honors</strong>: Dean's List, Wien International Scholarship, Kenya Scholar-Athlete Project Scholarship (KenSAP)</p>
 
 <div class = "section">RELEVANT COURSES </div>
+<div class ="courses">
 <ul>
 	<li>Introduction to Programming in Java and C</li>
 	<li>Advanced Programming Techniques</li>
@@ -295,22 +302,26 @@ function showSlides(n) {
     <li>American Fiscal Policy</li>
     <li>Political Economy of Third World Countries
 </ul>
-
+</div>
 <br>
 
 <div class = "section">SKILLS AND STRENGHTS </div>
+<div class = "skills">
 <ul>
 	<li><strong>Programming Languages:</strong> Java, SQL, Python, C++, C, Ruby on Rails, JavaScript, HTML/CSS</li>
 	<li><strong>Software:</strong> Selenium, Jenkins, QTP, Maven, JUnit, TestNG, Adobe Photoshop, Stata, Bloomberg Terminal</li>
 	<li><strong>Operating Systems:</strong> Windows (7, 8, 10), Mac OS, Linux</li>
 	<li><strong>Github Account: </strong><a href = "https://github.com/kalekem" target ="_blank"> https://github.com/kalekem</a></li>
 </ul>
+</div>
 
 <br>
 
 <div class = "section">EXPERIENCE</div>
-	<div class = "company">Cartera Commerce Inc. , Lexington, MA &nbsp; May 2016 - Aug. 2016</div>
-	<div class = "title">Quality Assurance Engineering Intern</div>
+<div class = "roles" >
+	<div class = "company"><strong>Cartera Commerce Inc. , Lexington, MA &nbsp; May 2016 - Aug. 2016</strong></div>
+	<div class = "title"><strong>Quality Assurance Engineering Intern</strong></div>
+
 	<ul>
 		<li>Designed, executed and reported results on implementing QE process in order to provide a better customer experience by modernizing the company's web-based platforms</li>
 		<li>Created test data and generated SQL queries and scripts that provided in an automated way consistent and detailed test cases for all the company's responsive web-based platforms</li>
@@ -319,8 +330,9 @@ function showSlides(n) {
 	
 	<br>
 
-	<div class ="company">Brandeis University - International Business School (IBS), Waltham, MA &nbsp; May 2015 - Present</div>
-	<div class = "title">Help Desk Technician</div>
+	<div class ="company"><strong>Brandeis University - International Business School (IBS), Waltham, MA &nbsp; May 2015 - Present</strong></div>
+
+	<div class = "title"><strong>Help Desk Technician</strong></div>
 	<ul>
 		<li>Manage daily operations for the University Help Desk supporting faculty, staff and the students</li>
 		<li>Support classroom technology including Creston and Extron devices, projectors, audio and touch panel interface</li>
@@ -330,8 +342,8 @@ function showSlides(n) {
 
 	<br>
 
-	<div class = "company"> Brandeis University - Library and Technology Services (LTS), Waltham, MA &nbsp; May 2014 - Present </div>
-	<div class = "title"> Information Technology and Borrowing Assistant</div>
+	<div class = "company"><strong> Brandeis University - Library and Technology Services (LTS), Waltham, MA &nbsp; May 2014 - Present </strong></div>
+	<div class = "title"><strong> Information Technology and Borrowing Assistant</strong></div>
 	<ul>
 		<li>Provide daily direct front desk library assistance to Brandeis students, faculty, staff and guests</li>
 		<li>Execute borrowing and return transactions</li>
@@ -340,8 +352,8 @@ function showSlides(n) {
 
 	</ul>
 	<br>
-	<div class = "company"> Brandeis University - Library and Technology Services (LTS), Waltham, MA, &nbsp; Oct. 2015 - Aug. 2016 </div>
-	<div class = "title"> Student Assistant for Research Technology and Innovation </div>
+	<div class = "company"><strong> Brandeis University - Library and Technology Services (LTS), Waltham, MA, &nbsp; Oct. 2015 - Aug. 2016</strong> </div>
+	<div class = "title"> <strong>Student Assistant for Research Technology and Innovation </strong></div>
 	<ul>
 		<li>Supported technology needs in the lab environment </li>
 		<li>Worked with other student researchers and innovators to come up with new pieces of technology in the lab.</li>
@@ -352,7 +364,7 @@ function showSlides(n) {
 	</ul>
 <br>
 <div class = "section"> ACTIVITIES </div>
-<div class = "activity">Coapital - Co-founder and Technology Chair, &nbsp; Sep.2015 -Present </div>
+<div class = "activity"><strong>Coapital - Co-founder and Technology Chair, &nbsp; Sep.2015 -Present</strong> </div>
 <ul>
 	<li>Coapital's Website: <a href = "http://www.coapital.com/" target = "_blank">http://www.coapital.com</a></li>
 	<li>Founded a global entrepreneurial club with the intention of bringing together students with a vast array of backgrounds in order to learn about business practices in one another's home countries</li>
@@ -361,7 +373,7 @@ function showSlides(n) {
 
 </ul>
 <br>
-<div class = "activity">Brandeis African Students Organization (BASO) - Cultural Liaison </div>
+<div class = "activity"> <strong>Brandeis African Students Organization (BASO) - Cultural Liaison</strong> </div>
 <ul>
 	<li>Attended intercultural weekly meetings. </li>
 	<li>Wrote blogs about the club's activities and events- Here is one of the blog I wrote about the night for Africa: 
@@ -369,10 +381,13 @@ function showSlides(n) {
 	<li>Worked with the EBOARD members to organize weekly meetings, plan events and activities such as the Night for Africa and the Taste for Africa</li>
 	<li>Participated in recruiting new members to the club and organized the election of new board members</li>
 </ul>
+</div>
+</div>
 
 <br><br>
 
 <div id= "Projects"></div>
+<div style = "background-color: #DEE1AA">
 <h1 style = "color: black"> <strong>PROJECTS</strong></h1>
 <div class ="section">PROJECT 1: UXCHANGE</div>
 
@@ -423,8 +438,10 @@ the specific category that the item belong</p>
 
 <p>Download the full report at <a href ="UXchange.pdf">UXchange pdf file </a> to read more about this project</p>
 
-<br>
+</div>
+<br><br>
 
+<div style = "background-color: #EAEF5A">
 <div class ="section">PROJECT 2: E-FARMERS</div>
 <p>This was a project we worked on for my Software Entrepreneurship class with Professor Pito Salas </p>
 
@@ -451,8 +468,8 @@ farmers get better prices for their produce and help businesses get more bang fo
 
 <h1 style = "color: black">DESCRIPTION</h1>
 <p>Kenya has the largest and the most diversified economy in East Africa. Agriculture is the
-backbone of the country’s economy and the government has put a lot of measures and strategies
-for agricultural development. The sector accounts for more than 25% of the country’s total gross
+backbone of the country's economy and the government has put a lot of measures and strategies
+for agricultural development. The sector accounts for more than 25% of the country's total gross
 domestic product (GDP). However, the sector faces myriad of challenges, some of which include
 poor infrastructure - such as roads - which lead to high transportation costs for agricultural tools,
 inputs and products. It also leads to spoilage of perishable commodities during transportation
@@ -482,11 +499,13 @@ change the way agribusiness is done in Kenya.
 <br>
 <p>Download the full report at <a href ="Efarmers.pdf">E-FARMERS pdf file </a> to read more about this project</p>
 <br>
-<div id="contact"></div>
+</div>
 
 <br><br>
-
-<h1 style = "color: black"><strong>CONTACT ME</strong></h1>
+<div id="contact"></div>
+<br><br>
+<div class= "contacts">
+<h1 style = "color: white"><strong>CONTACT ME</strong></h1>
 
 	<br>
 	<p> Fill your information below and I'll get back to you as soon as possible</p>
@@ -503,7 +522,7 @@ change the way agribusiness is done in Kenya.
 		<br>
 		<input type="submit" value="Submit"><br>
 	</form>
-
+</div>
 	<br><br>
 
 	<div id= "SocialMedia"></div>
@@ -511,11 +530,11 @@ change the way agribusiness is done in Kenya.
 	<p> Follow me on Twitter, Facebook and LinkedIn</p>
 		<div class="box">
 		<ul>
-			<li><a href="https://www.facebook.com/kalekem.cleo" target="_blank">Facebook</a></li>
+			<li><a href="https://www.facebook.com/kalekem.cleo" >Facebook</a></li>
 			<br>
-			<li><a href="https://twitter.com/CKalekem" target="_blank">Twitter</a></li>
+			<li><a href="https://twitter.com/CKalekem">Twitter</a></li>
 			<br>
-			<li><a href="https://www.linkedin.com/in/cleophas-kalekem-82142286" target="_blank">LinkedIn</a></li>
+			<li><a href="https://www.linkedin.com/in/cleophas-kalekem-82142286" >LinkedIn</a></li>
 		</ul>
 		</div>
 
