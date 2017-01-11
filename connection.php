@@ -3,7 +3,7 @@
  
 function Connect()
 {
- $dbhost = "127.0.0.1: 3308";
+ $dbhost = "127.0.0.1: 3306";
  $dbuser = "root";
  $dbpass = "";
  $dbname = "responses";
